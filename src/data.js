@@ -43,34 +43,34 @@ export const sliderItems = [
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://static.wixstatic.com/media/ca5a16_e841557d534f416ea18f2248d52c7b6b~mv2.png/v1/fill/w_554,h_729,al_c,lg_1,q_90,enc_auto/whywait-mockup.png",
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://images-na.ssl-images-amazon.com/images/I/41BzklN%2BwWL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://images-na.ssl-images-amazon.com/images/I/714VnjKTvzL._AC_UL604_SR604,400_.jpg",
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://www.ims-online.com/images/books/Thomas_Maura_book2.png",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://www.pngmart.com/files/8/Book-Cover-PNG-Clipart.png",
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://images-na.ssl-images-amazon.com/images/I/417BA65jFpL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://images-na.ssl-images-amazon.com/images/I/41aMh056w6L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:"https://images-eu.ssl-images-amazon.com/images/I/416eyllg3XL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
     },
   ]
