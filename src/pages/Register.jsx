@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
@@ -7,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://img.freepik.com/free-photo/stylish-girl-reading-book_23-2147666421.jpg?w=2000")
+    url("https://img.freepik.com/free-photo/copy-space-woman-reading-book_23-2148666465.jpg?w=2000")
       center;
   background-size: cover;
   display: flex;
@@ -16,7 +17,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 25%;
+  width: 40%;
   padding: 20px;
   background-color: white;
 `;
@@ -28,14 +29,19 @@ const Title = styled.h1`
 
 const Form = styled.form`
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 `;
 
 const Input = styled.input`
   flex: 1;
   min-width: 40%;
-  margin: 10px 0;
+  margin: 20px 10px 0px 0px;
   padding: 10px;
+`;
+
+const Agreement = styled.span`
+  font-size: 12px;
+  margin: 20px 0px;
 `;
 
 const Button = styled.button`
@@ -45,31 +51,29 @@ const Button = styled.button`
   background-color: teal;
   color: white;
   cursor: pointer;
-  margin-bottom: 10px;
 `;
 
-const Link = styled.a`
-  margin: 5px 0px;
-  font-size: 12px;
-  text-decoration: underline;
-  cursor: pointer;
-`;
-
-const Login = () => {
+const Register = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>SIGN IN</Title>
+        <Title>CREATE AN ACCOUNT</Title>
         <Form>
+          <Input placeholder="name" />
+          <Input placeholder="last name" />
           <Input placeholder="username" />
+          <Input placeholder="email" />
           <Input placeholder="password" />
-          <Button>LOGIN</Button>
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-          <Link>CREATE A NEW ACCOUNT</Link>
+          <Input placeholder="confirm password" />
+          <Agreement>
+            By creating an account, I consent to the processing of my personal
+            data in accordance with the <b>PRIVACY POLICY</b>
+          </Agreement>
+          <Button>CREATE</Button>
         </Form>
       </Wrapper>
     </Container>
   );
 };
 
-export default Login;
+export default Register;
