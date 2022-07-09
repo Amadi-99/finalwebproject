@@ -84,7 +84,7 @@ import {
     return (
       <Container>
         <Left>
-          <Logo>LAMA.</Logo>
+          <Logo>BOOKDEPOT</Logo>
           <Desc>
           We offer the vast selection of titles, competitive prices, and fast processing times that you are looking for in a book supplier. 
           Our large inventory of high-margin bargain books is 75-90% off list price and easily browsable on our website 
