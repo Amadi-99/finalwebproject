@@ -3,11 +3,13 @@ import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { mobile } from "../responsive";
 
 const Container = styled.div``;
 
 const Wrapper = styled.div`
   padding: 20px;
+  ${mobile({ padding: "10px" })}
 `;
 
 const Title = styled.h1`
@@ -43,6 +45,7 @@ const TopText = styled.span`
 const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
+  ${mobile({ flexDirection: "column" })}
 `;
 
 const Info = styled.div`
@@ -52,6 +55,7 @@ const Info = styled.div`
 const Product = styled.div`
   display: flex;
   justify-content: space-between;
+  ${mobile({ flexDirection: "column" })}
 `;
 
 const ProductDetail = styled.div`
@@ -73,6 +77,8 @@ const Details = styled.div`
 const ProductName = styled.span``;
 
 const ProductId = styled.span``;
+
+const ProductQty = styled.span``;
 
 const ProductColor = styled.div`
   width: 20px;
@@ -100,11 +106,13 @@ const ProductAmountContainer = styled.div`
 const ProductAmount = styled.div`
   font-size: 24px;
   margin: 5px;
+  ${mobile({ margin: "5px 15px" })}
 `;
 
 const ProductPrice = styled.div`
   font-size: 30px;
   font-weight: 200;
+  ${mobile({ marginBottom: "20px" })}
 `;
 
 const Hr = styled.hr`
@@ -164,18 +172,17 @@ const Cart = () => {
           <Info>
             <Product>
               <ProductDetail>
-                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+                <Image src="https://www.ims-online.com/images/books/Thomas_Maura_book2.png" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> JESSIE THUNDER SHOES
+                    <b>Product:</b> JESSIE 
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
-                  <ProductColor color="black" />
-                  <ProductSize>
-                    <b>Size:</b> 37.5
-                  </ProductSize>
+                  <ProductQty>
+                    <b>Qty Avail:</b> 647
+                  </ProductQty>
                 </Details>
               </ProductDetail>
               <PriceDetail>
@@ -190,18 +197,17 @@ const Cart = () => {
             <Hr />
             <Product>
               <ProductDetail>
-                <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
+                <Image src="https://www.pngmart.com/files/8/Book-Cover-PNG-Clipart.png" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> HAKURA T-SHIRT
+                    <b>Product:</b> HAKURA
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
-                  <ProductColor color="gray" />
-                  <ProductSize>
-                    <b>Size:</b> M
-                  </ProductSize>
+                  <ProductQty>
+                    <b>Qty Avail:</b> 647
+                  </ProductQty>
                 </Details>
               </ProductDetail>
               <PriceDetail>
